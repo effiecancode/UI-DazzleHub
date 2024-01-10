@@ -1,0 +1,220 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Source+Sans+Pro:wght@400;700&display=swap");
+body {
+  margin: 0;
+  height: 100vh;
+  background-color: #1d291f;
+  font-family: "Libre Baskerville", serif;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.card {
+  width: 300px;
+  height: 500px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  position: relative;
+  perspective: 1000px;
+  transform: perspective(1000px) translateY(0);
+  transform-style: preserve-3d;
+  transition: transform 0.8s ease-in-out;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 20px;
+}
+.card.dark {
+  background-color: #50b878;
+  color: #fbfbfb;
+  border-radius: 20px;
+  /* height: auto; */
+}
+.card.dark .purchase-button {
+  border: 1px solid rgb(251, 252, 250);
+}
+.card.light {
+  background-color: #fbfbfb;
+  color: #272727;
+  border-radius: 20px;
+  /* height: auto; */
+}
+.card.light .purchase-button {
+  border: 1px solid rgb(87, 197, 129);
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
+  .card {
+    width: 90%; /* Adjusted width for smaller screens */
+    max-width: 100%; /* Full width for smaller screens */
+  }
+}
+
+.card-wrapper:hover .card {
+  transform: rotateY(179deg);
+  z-index: 2;
+}
+.card-wrapper:hover .card .text-overlay {
+  opacity: 0;
+  transform-style: preserve-3d;
+  z-index: 1;
+}
+.card-wrapper:hover .card .purchase-button-container {
+  opacity: 1;
+}
+
+.text-overlay {
+  transform: perspective(1000px) translateY(0) translateZ(80px);
+  transition: transform 0.8s ease-in-out, opacity 1s ease;
+  pointer-events: none;
+  width: 100%;
+  perspective: inherit;
+  padding-top: 50px;
+}
+
+h1 {
+  color: rgb(242, 247, 244);
+  font-weight: lighter;
+}
+
+h2 {
+  font-size: 0.9rem;
+  text-align: center;
+  font-weight: 500;
+}
+
+.price {
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 900;
+  margin: 20px;
+}
+
+.purchase-button-container {
+  color: rgb(11, 11, 11);
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  left: 0;
+  top: 0;
+  transform: perspective(1000px) rotateY(179deg) translateY(0) translateZ(80px);
+  opacity: 0;
+  z-index: -1;
+  transition: transform 0.8s ease-in-out, opacity 1s ease;
+  width: 100%;
+  height: 100%;
+}
+.purchase-button-container .purchase-button {
+  padding: 10px 40px;
+  border-radius: 50px;
+  font-size: 1.2rem;
+  transition: background-color 0.25s ease, color 0.25s ease;
+  cursor: pointer;
+}
+.purchase-button-container .purchase-button.light:hover {
+  background-color: rgb(87, 197, 129);
+  color: #fbfbfb;
+}
+
+
+.details-text {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  gap: 10px 10px;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  color: #131212;
+  font-size: 0.75rem;
+  padding: 30px;
+}
+
+small {
+  font-size: 0.75rem;
+  font-weight: 100;
+  color: #4f4d4d;
+}
+
+.small2 {
+  font-size: 0.75rem;
+  font-weight: 100;
+  color: #fcfbfb;
+}
+
+.fa-solid {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+.back-h2 {
+  font-size: 2rem;
+  margin-top: 0;
+}
+
+.details-text2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  gap: 10px 10px;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  color: #faf7f7;
+  font-size: 0.75rem;
+  padding: 30px;
+}
+.purchase-button-container2 {
+  color: rgb(252, 250, 250);
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  left: 0;
+  top: 0;
+  transform: perspective(1000px) rotateY(179deg) translateY(0) translateZ(80px);
+  opacity: 1;
+  z-index: -1;
+  transition: transform 0.8s ease-in-out, opacity 1s ease;
+  width: 100%;
+  height: 100%;
+}
+.purchase-button-container2 .purchase-button {
+  padding: 10px 40px;
+  border-radius: 50px;
+  font-size: 1.2rem;
+  transition: background-color 0.25s ease, color 0.25s ease;
+  cursor: pointer;
+}
+
+.purchase-button-container2 .purchase-button.dark:hover {
+  background-color: rgb(251, 252, 250);
+  color: #272727;
+}
+
+.background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: -1; /* Place behind other content */
+}
+
