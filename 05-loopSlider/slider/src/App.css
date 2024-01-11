@@ -3,7 +3,7 @@
   align-items: center;
   flex-direction: column;
   display: flex;
-  max-height: 100%;
+  height: 100vh;
   background-color: #1c1f24;
   overflow: hidden;
   justify-content: center;
@@ -21,7 +21,9 @@
   margin: auto;
   padding: 20px;
 }
-
+h1 {
+  color: #61aefb;
+}
 /* Media query for smaller screens */
 @media screen and (max-width: 768px) {
   .App-header {
@@ -53,7 +55,7 @@
     }
   }
   .slider .slide-track {
-    -webkit-animation: scroll 30s linear infinite;
+    -webkit-animation: scroll 30s ease linear infinite;
             animation: scroll 30s linear infinite;
     display: flex;
     width: calc(250px * 14);
@@ -63,13 +65,15 @@
     margin: 15px;
     height: 400px;
     width: 350px;
-    border-radius: 10px;
+    border-radius: 50px;
+    border: none;
+    transform: rotate(3deg);
     transition: transform 0.3s ease, border-radius 0.3s ease;
   }
 
   .slider .slide:hover {
-    transform: scale(1.05) rotate(5deg);
-    border-radius: 50px;
+    transform: scale(1.05) rotate(0deg);
+    border-radius: 10px;
   }
 
   /* Media query for smaller screens */
@@ -78,8 +82,8 @@
     width: 100%;
   }
 }
-
-/* .info {
+/*
+.info {
     background-color: #5b606b;
     position: relative;
     text-align: center;

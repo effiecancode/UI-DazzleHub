@@ -57,11 +57,11 @@ function App() {
               </div>
           </div>
 
-          <div class="info">
-          <p>
-          Perhaps travel cannot prevent bigotry, but by demonstrating that all peoples cry, laugh, eat, worry, and die, it can introduce the idea that if we try and understand each other, we may even become friends.
-          </p>
-      </div>
+          {/* <div class="info">
+            <p>
+            Perhaps travel cannot prevent bigotry, but by demonstrating that all peoples cry, laugh, eat, worry, and die, it can introduce the idea that if we try and understand each other, we may even become friends.
+            </p>
+          </div> */}
 
     </div>
 
