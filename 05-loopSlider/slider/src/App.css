@@ -54,24 +54,153 @@ h1 {
       transform: translateX(calc(-250px * 7));
     }
   }
+
+  
   .slider .slide-track {
     -webkit-animation: scroll 30s ease linear infinite;
             animation: scroll 30s linear infinite;
     display: flex;
     width: calc(250px * 14);
+
+  justify-content: space-between;
+
   }
 
-  .slider .slide {
+  .slide-track .slide {
+    background-image: url('https://source.unsplash.com/0LwfbRtQ-ac');
+    background-color: #e1fb61;
+    height: auto;
+    max-width: 100%;
     margin: 15px;
-    height: 400px;
-    width: 350px;
     border-radius: 50px;
     border: none;
     transform: rotate(3deg);
     transition: transform 0.3s ease, border-radius 0.3s ease;
   }
 
-  .slider .slide:hover {
+  .slide-track .slide1 {
+    background-image: url('https://source.unsplash.com/oJofV8dZd_w');
+    height: auto;
+    max-width: 100%;
+    margin: 15px;
+    border-radius: 50px;
+    border: none;
+    transform: rotate(3deg);
+    transition: transform 0.3s ease, border-radius 0.3s ease;
+  }
+
+  .slide-track .slide2 {
+    background-image: url('https://source.unsplash.com/DWXR-nAbxCk');
+    height: auto;
+    max-width: 100%;
+    margin: 15px;
+    border-radius: 50px;
+    border: none;
+    transform: rotate(3deg);
+    transition: transform 0.3s ease, border-radius 0.3s ease;
+  }
+  .slide-track .slide3 {
+    background-image: url('https://source.unsplash.com/apWEUZdDXdQ');
+    height: auto;
+    max-width: 100%;
+    margin: 15px;
+    border-radius: 50px;
+    border: none;
+    transform: rotate(3deg);
+    transition: transform 0.3s ease, border-radius 0.3s ease;
+  }
+  .slide-track .slide4 {
+    background-image: url('https://source.unsplash.com/8f02hcTVbKs');
+    height: auto;
+    max-width: 100%;
+    margin: 15px;
+    border-radius: 50px;
+    border: none;
+    transform: rotate(3deg);
+    transition: transform 0.3s ease, border-radius 0.3s ease;
+  }
+  .slide-track .slide5 {
+    background-image: url('https://source.unsplash.com/pY4La9JmNvg');
+    height: auto;
+    max-width: 100%;
+    margin: 15px;
+    border-radius: 50px;
+    border: none;
+    transform: rotate(3deg);
+    transition: transform 0.3s ease, border-radius 0.3s ease;
+  }
+  .slide-track .slide6 {
+    background-image: url('https://source.unsplash.com/CG6Gd__QIOY');
+    height: auto;
+    max-width: 100%;
+    margin: 15px;
+    border-radius: 50px;
+    border: none;
+    transform: rotate(3deg);
+    transition: transform 0.3s ease, border-radius 0.3s ease;
+  }
+  .slider .slide7 {
+    background-image: url('https://source.unsplash.com/wYy3rvvgjAU');
+    height: auto;
+    max-width: 100%;
+    margin: 15px;
+    border-radius: 50px;
+    border: none;
+    transform: rotate(3deg);
+    transition: transform 0.3s ease, border-radius 0.3s ease;
+  }
+  .slide-track .slide8 {
+    background-image: url('https://source.unsplash.com/1tyuLfDOnG0');
+    height: auto;
+    max-width: 100%;
+    margin: 15px;
+    border-radius: 50px;
+    border: none;
+    transform: rotate(3deg);
+    transition: transform 0.3s ease, border-radius 0.3s ease;
+  }
+  .slide-track .slide9 {
+    background-image: url('https://source.unsplash.com/_pPHgeHz1uk');
+    height: auto;
+    max-width: 100%;
+    margin: 15px;
+    border-radius: 50px;
+    border: none;
+    transform: rotate(3deg);
+    transition: transform 0.3s ease, border-radius 0.3s ease;
+  }
+  .slide-track .slide10 {
+    background-image: url('https://source.unsplash.com/2gOxKj594nM"');
+    height: auto;
+    max-width: 100%;
+    margin: 15px;
+    border-radius: 50px;
+    border: none;
+    transform: rotate(3deg);
+    transition: transform 0.3s ease, border-radius 0.3s ease;
+  }
+  .slide-track .slide11 {
+    background-image: url('https://source.unsplash.com/pRECfI47Q9o');
+    height: auto;
+    max-width: 100%;
+    margin: 15px;
+    border-radius: 50px;
+    border: none;
+    transform: rotate(3deg);
+    transition: transform 0.3s ease, border-radius 0.3s ease;
+  }
+  .slide-track .slide12 {
+    background-image: url('https://source.unsplash.com/DGa0LQ0yDPc');
+    height: auto;
+    max-width: 100%;
+    margin: 15px;
+    border-radius: 50px;
+    border: none;
+    transform: rotate(3deg);
+    transition: transform 0.3s ease, border-radius 0.3s ease;
+  }
+
+  .slide-track .slide:hover {
     transform: scale(1.05) rotate(0deg);
     border-radius: 10px;
   }
@@ -82,6 +211,7 @@ h1 {
     width: 100%;
   }
 }
+
 /*
 .info {
     background-color: #5b606b;

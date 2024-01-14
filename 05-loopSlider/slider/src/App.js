@@ -11,49 +11,49 @@ function App() {
           </p>
         </header>
       </div>
-      <div class="slider">
-          <div class="slide-track">
-              <div class="slide">
-                  <img src="https://source.unsplash.com/0LwfbRtQ-ac" height="300" width="350" alt="" />
+      <div className="slider">
+          <div className="slide-track">
+              <div className="slide">
+ 
               </div>
-              <div class="slide">
-                  <img src="https://source.unsplash.com/oJofV8dZd_w" height="300" width="350" alt="" />
+              <div className="slide1">
+
               </div>
-              <div class="slide">
-                  <img src="https://source.unsplash.com/DWXR-nAbxCk" height="300" width="350" alt="" />
+              <div className="slide2">
+
               </div>
-              <div class="slide">
-                  <img src="https://source.unsplash.com/apWEUZdDXdQ" height="300" width="350" alt="" />
+              <div className="slide3">
+
               </div>
-              <div class="slide">
-                  <img src="https://source.unsplash.com/8f02hcTVbKs" height="300" width="350" alt="" />
+              <div className="slide4">
+
               </div>
-              <div class="slide">
-                  <img src="https://source.unsplash.com/pY4La9JmNvg" height="300" width="350" alt="" />
+              <div className="slide5">
+
               </div>
-              <div class="slide">
-                  <img src="https://source.unsplash.com/CG6Gd__QIOY" height="300" width="350" alt="" />
+              <div className="slide6">
+
               </div>
-              <div class="slide">
-                  <img src="https://source.unsplash.com/wYy3rvvgjAU" height="300" width="350" alt="" />
+              <div className="slide7">
+
               </div>
-              <div class="slide">
-                  <img src="https://source.unsplash.com/1tyuLfDOnG0" height="300" width="350" alt="" />
+              <div className="slide8">
+
               </div>
-              <div class="slide">
-                  <img src="https://source.unsplash.com/_pPHgeHz1uk" height="300" width="350" alt="" />
+              <div className="slide9">
+
               </div>
-              <div class="slide">
-                  <img src="https://source.unsplash.com/2gOxKj594nM" height="300" width="350" alt="" />
+              <div className="slide10">
+
               </div>
-              <div class="slide">
-                  <img src="https://source.unsplash.com/xEaAoizNFV8" height="300" width="350" alt="" />
+              <div className="slide11">
+
               </div>
-              <div class="slide">
-                  <img src="https://source.unsplash.com/pRECfI47Q9o" height="300" width="350" alt="" />
+              <div className="slide12">
+
               </div>
-              <div class="slide">
-                  <img src="https://source.unsplash.com/DGa0LQ0yDPc" height="300" width="350" alt="" />
+              <div className="slide13">
+
               </div>
           </div>
 
