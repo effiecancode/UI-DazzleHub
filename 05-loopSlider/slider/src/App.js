@@ -14,9 +14,9 @@ function App() {
       <div className="slider">
           <div className="slide-track">
               <div className="slide">
- 
+
               </div>
-              <div className="slide1">
+              {/* <div className="slide1">
 
               </div>
               <div className="slide2">
@@ -54,7 +54,7 @@ function App() {
               </div>
               <div className="slide13">
 
-              </div>
+              </div> */}
           </div>
 
           {/* <div class="info">
