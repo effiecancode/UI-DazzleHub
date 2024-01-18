@@ -14,11 +14,11 @@ function App() {
       <div className="slider">
           <div className="slide-track">
               <div className="slide">
-                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/1.png" height="100" width="250" alt="" />
+                <img src="https://source.unsplash.com/oJofV8dZd_w" height="100" width="250" alt="" />
               </div>
 
               <div className="slide">
-                  <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/1.png" height="100" width="250" alt="" />
+                  <img src="https://source.unsplash.com/0LwfbRtQ-ac" height="100" width="250" alt="" />
               </div>
 
               <div className="slide">

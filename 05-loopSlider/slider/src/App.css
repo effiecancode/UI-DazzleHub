@@ -67,7 +67,7 @@ h1 {
   }
 
   .slide-track .slide {
-    /* background-image: url('https://source.unsplash.com/0LwfbRtQ-ac'); */
+    background-image: url('https://source.unsplash.com/0LwfbRtQ-ac');
     background-size: cover;
     background-color: #e1fb61;
     height: auto;
