@@ -14,45 +14,48 @@ function App() {
       <div className="slider">
           <div className="slide-track">
               <div className="slide">
+                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/1.png" height="100" width="250" alt="" />
+              </div>
+
+              <div className="slide">
+                  <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/1.png" height="100" width="250" alt="" />
+              </div>
+
+              <div className="slide">
+                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/1.png" height="100" width="250" alt="" />
+              </div>
+
+              <div className="slide">
+                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/1.png" height="100" width="250" alt="" />
+              </div>
+              <div className="slide">
 
               </div>
-              <div className="slide1">
+              <div className="slide">
 
               </div>
-              <div className="slide2">
+              <div className="slide">
 
               </div>
-              <div className="slide3">
+              <div className="slide">
 
               </div>
-              <div className="slide4">
+              <div className="slide">
 
               </div>
-              <div className="slide5">
+              <div className="slide">
 
               </div>
-              <div className="slide6">
+              <div className="slide">
 
               </div>
-              <div className="slide7">
+              <div className="slide">
 
               </div>
-              <div className="slide8">
+              <div className="slide">
 
               </div>
-              <div className="slide9">
-
-              </div>
-              <div className="slide10">
-
-              </div>
-              <div className="slide11">
-
-              </div>
-              <div className="slide12">
-
-              </div>
-              <div className="slide13">
+              <div className="slide">
 
               </div>
           </div>
