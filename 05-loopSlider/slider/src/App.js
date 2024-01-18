@@ -14,48 +14,54 @@ function App() {
       <div className="slider">
           <div className="slide-track">
               <div className="slide">
-                <img src="https://source.unsplash.com/oJofV8dZd_w" height="100" width="250" alt="" />
+                <img src="https://source.unsplash.com/oJofV8dZd_w" height="300" width="350" alt="" />
               </div>
 
               <div className="slide">
-                  <img src="https://source.unsplash.com/0LwfbRtQ-ac" height="100" width="250" alt="" />
+                  <img src="https://source.unsplash.com/0LwfbRtQ-ac" height="300" width="350" alt="" />
               </div>
 
               <div className="slide">
-                <img src="https://source.unsplash.com/DWXR-nAbxCk" height="100" width="250" alt="" />
+                <img src="https://source.unsplash.com/DWXR-nAbxCk" height="300" width="350" alt="" />
               </div>
 
               <div className="slide">
-                <img src="https://source.unsplash.com/apWEUZdDXdQ" height="100" width="250" alt="" />
+                <img src="https://source.unsplash.com/apWEUZdDXdQ" height="300" width="350" alt="" />
+              </div>
+
+              <div className="slide">
+                <img src="https://source.unsplash.com/8f02hcTVbKs" height="300" width="350" alt="" />
+              </div>
+
+              <div className="slide">
+                <img src="https://source.unsplash.com/8f02hcTVbKs" height="300" width="350" alt="" />
+              </div>
+
+              <div className="slide">
+                <img src="https://source.unsplash.com/pY4La9JmNvg" height="300" width="350" alt="" />
+              </div>
+
+              <div className="slide">
+                <img src="https://source.unsplash.com/CG6Gd__QIOY" height="300" width="350" alt="" />
+              </div>
+
+              <div className="slide">
+              <img src="https://source.unsplash.com/wYy3rvvgjAU" height="300" width="350" alt="" />
               </div>
               <div className="slide">
-                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/1.png" height="100" width="250" alt="" />
+              <img src="https://source.unsplash.com/1tyuLfDOnG0" height="300" width="350" alt="" />
               </div>
               <div className="slide">
-              <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/1.png" height="100" width="250" alt="" />
+              <img src="https://source.unsplash.com/_pPHgeHz1uk" height="300" width="350" alt="" />
               </div>
               <div className="slide">
-              <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/1.png" height="100" width="250" alt="" />
-              </div>
-              <div className="slide"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/1.png" height="100" width="250" alt="" />
+              <img src="https://source.unsplash.com/2gOxKj594nM" height="300" width="350" alt="" />
               </div>
               <div className="slide">
-              <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/1.png" height="100" width="250" alt="" />
+              <img src="https://source.unsplash.com/pRECfI47Q9o" height="300" width="350" alt="" />
               </div>
               <div className="slide">
-              <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/1.png" height="100" width="250" alt="" />
-              </div>
-              <div className="slide">
-              <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/1.png" height="100" width="250" alt="" />
-              </div>
-              <div className="slide">
-              <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/1.png" height="100" width="250" alt="" />
-              </div>
-              <div className="slide">
-              <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/1.png" height="100" width="250" alt="" />
-              </div>
-              <div className="slide">
-              <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/1.png" height="100" width="250" alt="" />
+              <img src="https://source.unsplash.com/DGa0LQ0yDPc" height="300" width="350" alt="" />
               </div>
           </div>
 
