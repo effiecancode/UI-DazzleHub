@@ -78,18 +78,7 @@ h1 {
     transform: rotate(3deg);
     transition: transform 0.3s ease, border-radius 0.3s ease;
   }
-
-  .slide-track .slide1 {
-    background-image: url('https://source.unsplash.com/oJofV8dZd_w');
-    height: auto;
-    max-width: 100%;
-    margin: 15px;
-    border-radius: 50px;
-    border: none;
-    transform: rotate(3deg);
-    transition: transform 0.3s ease, border-radius 0.3s ease;
-  }
-
+  
   .slide-track .slide2 {
     background-image: url('https://source.unsplash.com/DWXR-nAbxCk');
     height: auto;
