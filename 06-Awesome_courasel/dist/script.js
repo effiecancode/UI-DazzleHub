@@ -19,10 +19,10 @@
 
     // titles slider
     var titles = [
-        'King',
-        'Sound of Streets',
-        'Urban Fashion',
-        'Windy Sunset'
+        'Step, stand, slay ',
+        'Walk with confidence',
+        'Step into style',
+        'Step into elegance'
     ];
     var msTitles = new MomentumSlider({
         el: slidersContainer,
@@ -45,7 +45,7 @@
         cssClass: 'ms--links',
         range: [0, 3],
         rangeContent: function () {
-            return '<a class="ms-slide__link">View Case</a>';
+            return '<a class="ms-slide__link">Shop now</a>';
         },
         vertical: true,
         interactive: false
