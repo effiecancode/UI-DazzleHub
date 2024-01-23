@@ -2,7 +2,7 @@
 
     var slidersContainer = document.querySelector('.sliders-container');
 
-    // Initializing the numbers slider
+    // Initialize the numbers slider
     var msNumbers = new MomentumSlider({
         el: slidersContainer,
         cssClass: 'ms--numbers',
@@ -39,7 +39,7 @@
         interactive: false
     });
 
-    // Initializing the links slider
+    // Initialize the links slider
     var msLinks = new MomentumSlider({
         el: slidersContainer,
         cssClass: 'ms--links',
@@ -55,7 +55,7 @@
     var pagination = document.querySelector('.pagination');
     var paginationItems = [].slice.call(pagination.children);
 
-    // Initializing the images slider
+    // Initialize the images slider
     var msImages = new MomentumSlider({
         // Element to append the slider
         el: slidersContainer,
