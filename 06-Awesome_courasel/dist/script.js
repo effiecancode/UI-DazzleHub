@@ -61,7 +61,7 @@
         el: slidersContainer,
         // CSS class to reference the slider
         cssClass: 'ms--images',
-        // Generate the 4 slides required
+        // Generate all the 4 slides required
         range: [0, 3],
         rangeContent: function () {
             return '<div class="ms-slide__image-container"><div class="ms-slide__image"></div></div>';
