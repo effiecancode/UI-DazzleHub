@@ -17,9 +17,9 @@
         interactive: false
     });
 
-    // Initializing the titles slider
+    // titles slider
     var titles = [
-        'King of the Ring Fight',
+        'King',
         'Sound of Streets',
         'Urban Fashion',
         'Windy Sunset'
